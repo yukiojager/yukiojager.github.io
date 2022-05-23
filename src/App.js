@@ -102,7 +102,7 @@ const App = () => {
                     </Sticky>
                     {projects.map((project) => (
                       <Project
-                        link={project.technology}
+                        link={project.link}
                         technology={project.technology}
                         title={project.title}
                         description={project.description}
