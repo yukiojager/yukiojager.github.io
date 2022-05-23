@@ -22,7 +22,7 @@ const App = () => {
       link: "https://github.com/verajs/Scriabinite",
       technology: "HTML/CSS/BOOTSTRAP",
       title: "Scriabinite",
-      description: `🎹  Biographic websit about Alexander Scriabin with design based on Alexandra Exter's paintings`,
+      description: `🎹  Website about composer Alexander Scriabin designed with Alexandra Exter's style`,
     },
   ];
 

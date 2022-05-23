@@ -364,11 +364,15 @@ code {
 
 @media (min-width: 1046px) {
     .project-main-div:hover {
-      background: rgb(255, 255, 255);
+      background: #E1E1DF;
       color: rgb(32, 31, 30);
       border: 1px solid rgb(0, 0, 0);
       box-shadow: 3px 3px 1px 1px #8e8e8e;
     }
+    .project-main-div:hover .project-description-div{
+      color: rgb(38, 38, 38);
+    }
+    
 }
 
 
