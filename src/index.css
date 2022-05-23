@@ -4,14 +4,14 @@ a {
 }
 
 .font-link {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   overflow-x: hidden;
   background-color: #151515;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --tw-bg-opacity: 1;
@@ -21,27 +21,23 @@ body {
 code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace; */
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Headers and description */
 .leftside {
-  
   padding-right: 0;
   padding-left: 88px;
   padding-top: 88px;
   padding-bottom: 88px;
-  
+
   height: 50vw;
   width: 50vw;
-
-  
 
   position: fixed;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
-  
 }
 
 .flex {
@@ -54,7 +50,6 @@ code {
 }
 
 .flexdirection {
-  
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
@@ -70,8 +65,8 @@ code {
   line-height: 1;
   --tw-text-opacity: 1;
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight:700;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
   font-style: bold;
 }
 
@@ -81,8 +76,8 @@ code {
   line-height: 1.25;
   font-weight: 600;
   margin-top: 16px;
-  font-family: 'Inter', sans-serif;
-  font-weight:bolder;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
   font-style: bold;
 }
 
@@ -93,9 +88,8 @@ code {
   line-height: 2;
   color: #b2b2ae;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
-  font-weight:450;
-  
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
 }
 
 .section-buttons {
@@ -106,7 +100,6 @@ code {
 
 /* Project component */
 .project-main-div {
-  
   color: #ffff;
   cursor: pointer;
 }
@@ -115,8 +108,8 @@ code {
   padding-top: 35px;
   padding-left: 17px;
   padding-bottom: 0px;
-  font-family: 'Inter', sans-serif;
-  font-weight:900;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-size: 10px;
@@ -127,34 +120,33 @@ code {
   top: 41px;
   padding-top: 0px;
   padding-left: 17px;
-  font-family: 'Inter', sans-serif;
-  
-  font-weight:700;
+  font-family: "Inter", sans-serif;
+
+  font-weight: 700;
   font-size: 25.5px;
 
   display: block;
-  
+
   letter-spacing: 0px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .project-description-div {
   position: absolute;
   top: 101px;
   padding-left: 17px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #b4bbbbca;
-  
+
   letter-spacing: 0.25px;
 }
 
 .projects-div {
-  
   padding-right: 88px;
   padding-top: 88px;
   padding-bottom: 88px;
@@ -176,35 +168,32 @@ code {
   position: absolute;
   right: 0;
   display: block;
-  
 }
 
 /* Card */
 .project-main-div {
-  
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   position: relative;
   width: 608px;
   height: 194px;
-  
+
   padding: 40px;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
   padding: 0 20px;
   background-color: #202022;
-  
+
   transition: 0.2s all ease-in-out;
   outline: none;
   border: 1px solid rgb(19, 19, 19);
   box-shadow: 3px 3px 1px 1px rgb(48, 48, 48);
 }
 
-
 .projects-sticky {
   position: sticky;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -214,13 +203,12 @@ code {
   padding-left: 2.5px;
   font-size: 12px;
   z-index: 40;
-  
 }
 
 .projects-sticky-stuck {
   position: sticky;
   top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -233,7 +221,6 @@ code {
   padding-left: 2.5px;
   font-size: 12px;
   z-index: 40;
-  
 }
 
 .p40 {
@@ -262,8 +249,8 @@ code {
   transition: background 0.8s ease;
   margin-bottom: 50px;
   margin-left: 10px;
-  font-family: 'Inter', sans-serif;
-  font-weight:bolder;
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
 }
 .button:hover {
   background: rgba(100, 0, 0, 0.03);
@@ -330,51 +317,218 @@ code {
   display: flex;
 }
 
+/*ONLY FOR THE SMALLEST WINDOW SIZE, PONERLO INSIDE INVISI MEDIA*/
+.infodiv {
+  height: 55px;
+  width: 400px;
+  margin-top: 40px;
+  position: relative;
+  /* outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); */
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: medium none;
+  margin: auto;
+  margin-left: 0px;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.twitter {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  transform: scale(0.75);
+  border: medium none;
+  margin: auto;
+  height: 25px;
+  width: 25px;
+  margin-left: 82px;
+  margin-top: 15px;
+  
+  display: block;
+}
+
+.textitotwitter {
+  position: absolute;
+  left: 120px;
+  top: 18px;
+  margin-top: 1px; 
+  color: white;
+  box-sizing: border-box;
+  border: medium none;
+  margin: auto;
+  margin-left: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14.65px;
+  letter-spacing: 0px;
+  
+}
+
+.cositotwitter {
+position: absolute;
+top: 22.6px;
+left: 180px;
+width: 10px;
+height: 10px;
+}
+
+.idktbh {
+  pointer-events: none;
+
+}
+
+
+.span1 {
+  box-sizing: border-box;
+  display: block;
+  width: initial;
+  height: initial;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+  opacity: 1;
+  border: 0px none;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  margin-right: 8rem;
+}
+
+.divcito {
+  width: 12rem;
+  height: 12rem;
+}
+
+.licito {
+  margin-left: 4rem; /* 64px */
+margin-right: 4rem;
+list-style-type:none;
+
+}
+
+.acito {
+ align-items: center;
+}
+
+
+/* Todo lo de Github */
+
+.githubcito {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  transform: scale(0.75);
+  border: medium none;
+  margin: auto;
+  height: 25px;
+  width: 25px;
+  margin-left: 225px;
+  margin-top: 15px;
+  
+  display: block;
+}
+
+.textitoGitHub {
+  position: absolute;
+  left: 265px;
+  top: 18px;
+  margin-top: 1px; 
+  color: white;
+  box-sizing: border-box;
+  border: medium none;
+  margin: auto;
+  margin-left: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14.65px;
+  letter-spacing: 0px;
+  
+}
+
+.cositoGitHub {
+  position: absolute;
+  top: 22.6px;
+  left: 325px;
+  width: 10px;
+  height: 10px;
+}
+
 @media (max-width: 1046px) {
   .leftside {
     width: auto !important;
-    
   }
   .right-side {
     max-width: 100% !important;
-    
   }
   .projects-div {
     max-width: 100% !important;
-    
+
     position: absolute !important;
     left: 10px !important;
-    
   }
   .project-main-div {
-    
     width: auto !important;
     height: 194px !important;
-    
   }
+}
+
+@media (min-width: 1047px) {
+  .infodiv {
+  height: 55px;
+  width: 400px;
+  bottom: 40px;
+  margin-top: 115px;
+  position: fixed;
+  margin-bottom: 50px;
+  /* outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); */
+  display: flex;
+  align-items: center;
+}
+}
+
+@media (max-height: 810px) and (min-width: 1047px) {
+  .infodiv {
+  height: 55px;
+  width: 400px;
+  bottom: 40px;
+  margin-top: 20px;
+  position: relative;
+  /* outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); */
+  display: flex;
+  align-items: center;
+}
 }
 
 @media (max-width: 1046px) {
   .projects-div {
-    position:relative;
-    
-    left:-32px;
+    position: relative;
+
+    left: -32px;
   }
 }
 
 @media (min-width: 1046px) {
-    .project-main-div:hover {
-      background: #E1E1DF;
-      color: rgb(32, 31, 30);
-      border: 1px solid rgb(0, 0, 0);
-      box-shadow: 3px 3px 1px 1px #8e8e8e;
-    }
-    .project-main-div:hover .project-description-div{
-      color: rgb(38, 38, 38);
-    }
-    
+  .project-main-div:hover {
+    background: #e1e1df;
+    color: rgb(32, 31, 30);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 1px 1px #8e8e8e;
+  }
+  .project-main-div:hover .project-description-div {
+    color: rgb(38, 38, 38);
+  }
 }
-
 
 @media (max-width: 1046px) {
   .leftside {
