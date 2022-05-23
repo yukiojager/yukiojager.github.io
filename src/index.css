@@ -320,7 +320,7 @@ code {
 /*ONLY FOR THE SMALLEST WINDOW SIZE, PONERLO INSIDE INVISI MEDIA*/
 .infodiv {
   height: 55px;
-  width: 400px;
+  width: 100px;
   margin-top: 40px;
   position: relative;
   /* outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); */
@@ -385,7 +385,8 @@ height: 10px;
 
 .idktbh {
   pointer-events: none;
-
+  width: 13px;
+  height: 16px;
 }
 
 
@@ -485,8 +486,7 @@ list-style-type:none;
 
 @media (min-width: 1047px) {
   .infodiv {
-  height: 55px;
-  width: 400px;
+
   bottom: 40px;
   margin-top: 115px;
   position: fixed;

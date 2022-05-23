@@ -97,7 +97,7 @@ const App = () => {
                   </div>
                 </a>
               </li>
-              {/* momento de github */}
+
               <li className="licito">
                 <a
                   className="acito"
