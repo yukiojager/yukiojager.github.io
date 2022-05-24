@@ -7,13 +7,13 @@ import Sticky from "./components/Stickydiv";
 const App = () => {
   const projects = [
     {
-      link: "https://still-wave-83882.herokuapp.com/",
+      link: "https://phonebookinator.herokuapp.com/",
       technology: "MERN STACK",
       title: "Phonebook",
       description: `☎️ A Full Stack web-app phonebook`,
     },
     {
-      link: "https://fierce-meadow-30388.herokuapp.com/",
+      link: "https://marsinator.herokuapp.com/",
       technology: "REACT",
       title: "Marsinator",
       description: `🚀 Up to date Mars weather info from Curiosity and Perseverance's rovers`,
@@ -23,6 +23,12 @@ const App = () => {
       technology: "HTML/CSS/BOOTSTRAP",
       title: "Scriabinite",
       description: `🎹  Website about composer Alexander Scriabin designed with Alexandra Exter's style`,
+    },
+    {
+      link: "https://weatherinator.herokuapp.com/",
+      technology: "REACT",
+      title: "Weatherinator",
+      description: `🌎 Weather web-app with real-time info from countries all around the world.`,
     },
   ];
 
