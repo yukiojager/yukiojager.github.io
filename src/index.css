@@ -390,6 +390,9 @@ height: 10px;
   height: 16px;
 }
 
+.hdiv {
+  color:white;
+}
 
 .span1 {
   box-sizing: border-box;
@@ -465,6 +468,52 @@ list-style-type:none;
   left: 325px;
   width: 10px;
   height: 10px;
+}
+
+.link {
+  position: relative;
+  top: 80px;
+  right:-600px;
+  height: 0.5em;
+  width: 0.5em;
+  box-shadow: 6em 0 #6687FC, 5.5em 0.5em #6687FC, 6em 0.5em #6687FC, 5em 1em #6687FC, 5.5em 1em #7EFDD8, 6em 1em #6687FC, 0 1.5em #FBD504, 0.5em 1.5em #FBD504, 5em 1.5em #6687FC, 5.5em 1.5em #7EFDD8, 6em 1.5em #6687FC, 0 2em #FBD504, 0.5em 2em #FBD504, 4.5em 2em #6687FC, 5em 2em #7EFDD8, 5.5em 2em #6687FC, 6em 2em #6687FC, -1em 2.5em #FBD504, -0.5em 2.5em #FBD504, 0 2.5em #FBD504, 0.5em 2.5em #FBD504, 1em 2.5em #FBD504, 1.5em 2.5em #FBD504, 4.5em 2.5em #6687FC, 5em 2.5em #7EFDD8, 5.5em 2.5em #6687FC, -1em 3em #FBD504, -0.5em 3em #282828, 0 3em #282828, 0.5em 3em #282828, 1em 3em #282828, 1.5em 3em #FBD504, 4em 3em #6687FC, 4.5em 3em #7EFDD8, 5em 3em #6687FC, 5.5em 3em #6687FC, -1.5em 3.5em #FBD504, -1em 3.5em #282828, -0.5em 3.5em #319700, 0 3.5em #319700, 0.5em 3.5em #5FC002, 1em 3.5em #319700, 1.5em 3.5em #282828, 2em 3.5em #282828, 4em 3.5em #6687FC, 4.5em 3.5em #7EFDD8, 5em 3.5em #6687FC, -1.5em 4em #282828, -1em 4em #319700, -0.5em 4em #319700, 0 4em #5FC002, 0.5em 4em #5FC002, 1em 4em #5FC002, 1.5em 4em #5FC002, 2em 4em #319700, 2.5em 4em #282828, 3.5em 4em #6687FC, 4em 4em #7EFDD8, 4.5em 4em #6687FC, 5em 4em #6687FC, -3em 4.5em #282828, -2em 4.5em #282828, -1.5em 4.5em #282828, -1em 4.5em #FB6E00, -0.5em 4.5em #319700, 0 4.5em #319700, 0.5em 4.5em #5FC002, 1em 4.5em #319700, 1.5em 4.5em #FB6E00, 2em 4.5em #282828, 2.5em 4.5em #319700, 3em 4.5em #282828, 3.5em 4.5em #6687FC, 4em 4.5em #7EFDD8, 4.5em 4.5em #6687FC, -3.5em 5em #282828, -3em 5em #FE9D61, -2.5em 5em #282828, -2em 5em #FD45AF, -1.5em 5em #282828, -1em 5em #282828, -0.5em 5em #FB6E00, 0 5em #FB6E00, 0.5em 5em #FB6E00, 1em 5em #FB6E00, 1.5em 5em #282828, 2em 5em #282828, 2.5em 5em #3C3C3C, 3em 5em #B82733, 3.5em 5em #6687FC, 4em 5em #6687FC, 4.5em 5em #6687FC, -3.5em 5.5em #282828, -3em 5.5em #FE9D61, -2.5em 5.5em #282828, -2em 5.5em #FD45AF, -1.5em 5.5em #FD45AF, -1em 5.5em #FD45AF, -0.5em 5.5em #282828, 0em 5.5em #282828, 0.5em 5.5em #282828, 1em 5.5em #282828, 1.5em 5.5em #FD45AF, 2em 5.5em #FD45AF, 2.5em 5.5em #3C3C3C, 3em 5.5em #B82733, 3.5em 5.5em #B82733, 4em 5.5em #6687FC, 4.5em 5.5em #B82733, 5em 5.5em #3C3C3C, -3.5em 6em #282828, -3em 6em #C66408, -2.5em 6em #FE9D61, -2em 6em #282828, -1.5em 6em #FD45AF, -1em 6em #FD45AF, -0.5em 6em #FD45AF, 0 6em #FD45AF, 0.5em 6em #FD45AF, 1em 6em #FD45AF, 1.5em 6em #FD45AF, 2em 6em #FD45AF, 2.5em 6em #282828, 3em 6em #3C3C3C, 3.5em 6em #B82733, 4em 6em #B82733, 4.5em 6em #B82733, 5em 6em #3C3C3C, -3.5em 6.5em #282828, -3em 6.5em #C66408, -2.5em 6.5em #282828, -2em 6.5em #FD45AF, -1.5em 6.5em #282828, -1em 6.5em #282828, -0.5em 6.5em #282828, 0 6.5em #282828, 0.5em 6.5em #282828, 1em 6.5em #282828, 1.5em 6.5em #282828, 2em 6.5em #282828, 2.5em 6.5em #FD45AF, 3em 6.5em #282828, 3.5em 6.5em #3C3C3C, 4em 6.5em #3C3C3C, 4.5em 6.5em #3C3C3C, -3.5em 7em #FBD504, -3em 7em #282828, -2.5em 7em #C66408, -2em 7em #282828, -1.5em 7em #C66408, -1em 7em #FFF, -0.5em 7em #FFF, 0 7em #C66408, 0.5em 7em #C66408, 1em 7em #FFF, 1.5em 7em #FFF, 2em 7em #C66408, 2.5em 7em #282828, 3em 7em #C66408, 3.5em 7em #282828, 4em 7em #282828, 4.5em 7em #282828, -4em 7.5em #FBD504, -3.5em 7.5em #FBD504, -3em 7.5em #FBD504, -2.5em 7.5em #282828, -2em 7.5em #C66408, -1.5em 7.5em #C66408, -1em 7.5em #FFF, -0.5em 7.5em #282828, 0 7.5em #FE9D61, 0.5em 7.5em #FE9D61, 1em 7.5em #282828, 1.5em 7.5em #FFF, 2em 7.5em #C66408, 2.5em 7.5em #C66408, 3em 7.5em #282828, 3.5em 7.5em #FE9D61, 4em 7.5em #FE9D61, -4em 8em #FBD504, -3.5em 8em #FBD504, -3em 8em #FBD504, -2.5em 8em #282828, -2em 8em #282828, -1.5em 8em #C66408, -1em 8em #FE9D61, -0.5em 8em #282828, 0 8em #FE9D61, 0.5em 8em #FE9D61, 1em 8em #282828, 1.5em 8em #FE9D61, 2em 8em #C66408, 2.5em 8em #282828, 3em 8em #915720, 3.5em 8em #282828, 4em 8em #FE9D61, -4.5em 8.5em #FBD504, -4em 8.5em #FBD504, -3.5em 8.5em #FBD504, -3em 8.5em #282828, -2.5em 8.5em #282828, -2em 8.5em #009568, -1.5em 8.5em #282828, -1em 8.5em #C66408, -0.5em 8.5em #FE9D61, 0 8.5em #D3000E, 0.5em 8.5em #D3000E, 1em 8.5em #FE9D61, 1.5em 8.5em #C66408, 2em 8.5em #282828, 2.5em 8.5em #915720, 3em 8.5em #915720, 3.5em 8.5em #282828, 4em 8.5em #282828, 4.5em 8.5em #FBD504, -4.5em 9em #FBD504, -4em 9em #FBD504, -3.5em 9em #282828, -3em 9em #915720, -2.5em 9em #915720, -2em 9em #282828, -1.5em 9em #009568, -1em 9em #282828, -0.5em 9em #C66408, 0 9em #D3000E, 0.5em 9em #D3000E, 1em 9em #C66408, 1.5em 9em #282828, 2em 9em #282828, 2.5em 9em #915720, 3em 9em #915720, 3.5em 9em #282828, 4em 9em #FBD504, 4.5em 9em #FBD504, -5em 9.5em #FBD504, -4.5em 9.5em #FBD504, -4em 9.5em #FBD504, -3.5em 9.5em #3C3C3C, -3em 9.5em #915720, -2.5em 9.5em #915720, -2em 9.5em #915720, -1.5em 9.5em #282828, -1em 9.5em #3C3C3C, -0.5em 9.5em #282828, 0 9.5em #282828, 0.5em 9.5em #282828, 1em 9.5em #282828, 1.5em 9.5em #00E16D, 2em 9.5em #009568, 2.5em 9.5em #282828, 3em 9.5em #282828, 3.5em 9.5em #FBD504, 4em 9.5em #FBD504, 4.5em 9.5em #FBD504, 5em 9.5em #FBD504, -5em 10em #FBD504, -4.5em 10em #FBD504, -4em 10em #3C3C3C, -3.5em 10em #FFF, -3em 10em #3C3C3C, -2.5em 10em #3C3C3C, -2em 10em #3C3C3C, -1.5em 10em #3C3C3C, -1em 10em #FFF, -0.5em 10em #3C3C3C, 0 10em #00E16D, 0.5em 10em #00E16D, 1em 10em #00E16D, 1.5em 10em #009568, 2em 10em #009568, 2.5em 10em #009568, 3em 10em #282828, 3.5em 10em #FBD504, 4em 10em #FBD504, 4.5em 10em #FBD504, 5em 10em #FBD504, -5.5em 10.5em #FBD504, -5em 10.5em #FBD504, -4.5em 10.5em #FBD504, -4em 10.5em #3C3C3C, -3.5em 10.5em #FFF, -3em 10.5em #FFF, -2.5em 10.5em #FFF, -2em 10.5em #FFF, -1.5em 10.5em #FFF, -1em 10.5em #FFF, -0.5em 10.5em #3C3C3C, 0 10.5em #00E16D, 0.5em 10.5em #00E16D, 1em 10.5em #009568, 1.5em 10.5em #009568, 2em 10.5em #009568, 2.5em 10.5em #F6DC27, 3em 10.5em #282828, 3.5em 10.5em #FBD504, 4em 10.5em #FBD504, 4.5em 10.5em #FBD504, 5em 10.5em #FBD504, 5.5em 10.5em #FBD504, -5.5em 11em #FBD504, -5em 11em #FBD504, -4.5em 11em #FBD504, -4em 11em #3C3C3C, -3.5em 11em #FFF, -3em 11em #2900CC, -2.5em 11em #2900CC, -2em 11em #2900CC, -1.5em 11em #2900CC, -1em 11em #FFF, -0.5em 11em #3C3C3C, 0 11em #F6DC27, 0.5em 11em #F6DC27, 1em 11em #282828, 1.5em 11em #F6DC27, 2em 11em #F6DC27, 2.5em 11em #009568, 3em 11em #282828, 3.5em 11em #FBD504, 4em 11em #FBD504, 4.5em 11em #FBD504, 5em 11em #FBD504, 5.5em 11em #FBD504, -6em 11.5em #FBD504, -5.5em 11.5em #FBD504, -5em 11.5em #FBD504, -4.5em 11.5em #FBD504, -4em 11.5em #3C3C3C, -3.5em 11.5em #FFF, -3em 11.5em #2900CC, -2.5em 11.5em #8074F3, -2em 11.5em #8074F3, -1.5em 11.5em #2900CC, -1em 11.5em #FFF, -0.5em 11.5em #3C3C3C, 0 11.5em #F6DC27, 0.5em 11.5em #F6DC27, 1em 11.5em #F6DC27, 1.5em 11.5em #009568, 2em 11.5em #009568, 2.5em 11.5em #282828, 3em 11.5em #282828, 3.5em 11.5em #FBD504, 4em 11.5em #FBD504, 4.5em 11.5em #FBD504, 5em 11.5em #FBD504, 5.5em 11.5em #FBD504, 6em 11.5em #FBD504, -6em 12em #FBD504, -5.5em 12em #FBD504, -5em 12em #FBD504, -4.5em 12em #FBD504, -4em 12em #3C3C3C, -3.5em 12em #FFF, -3em 12em #2900CC, -2.5em 12em #8074F3, -2em 12em #8074F3, -1.5em 12em #2900CC, -1em 12em #FFF, -0.5em 12em #3C3C3C, 0 12em #009568, 0.5em 12em #009568, 1em 12em #009568, 1.5em 12em #282828, 2em 12em #282828, 2.5em 12em #D3000E, 3em 12em #282828, 3.5em 12em #FBD504, 4em 12em #FBD504, 4.5em 12em #FBD504, 5em 12em #FBD504, 5.5em 12em #FBD504, 6em 12em #FBD504, -4em 12.5em #3C3C3C, -3.5em 12.5em #FFF, -3em 12.5em #2900CC, -2.5em 12.5em #8074F3, -2em 12.5em #8074F3, -1.5em 12.5em #2900CC, -1em 12.5em #FFF, -0.5em 12.5em #3C3C3C, 0 12.5em #282828, 0.5em 12.5em #282828, 1em 12.5em #282828, 1.5em 12.5em #D3000E, 2em 12.5em #FC6E00, 2.5em 12.5em #282828, -3.5em 13em #3C3C3C, -3em 13em #FFF, -2.5em 13em #2900CC, -2em 13em #2900CC, -1.5em 13em #FFF, -1em 13em #3C3C3C, 1.5em 13em #282828, 2em 13em #282828, -3em 13.5em #3C3C3C, -2.5em 13.5em #FFF, -2em 13.5em #FFF, -1.5em 13.5em #3C3C3C, -2.5em 14em #3C3C3C, -2em 14em #3C3C3C;}
+
+
+.the{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  
+}
+
+.paragraph{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color:white;
+}
+.paragraph2{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color:white;
+}
+.pcontainer{
+  width: 500px;
+}
+.paragraph3{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color:white;
+}
+
+.Bach {
+  color: #085025;
+}
+
+.Bach2{
+  color: #085025;
 }
 
 @media (max-width: 1046px) {
@@ -571,6 +620,51 @@ list-style-type:none;
 @media (max-width: 1342px) {
   .sebastian-vera-header-1 {
     font-size: 48px;
+  }
+  .the{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    
+  }
+  
+  .paragraph{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+  }
+  .paragraph2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:white;
+  }
+  .pcontainer{
+    width: 300px;
+  }
+  .thewholetext{
+    width:460px;
+  }
+  .paragraph3{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:white;
+  }
+  
+  .Bach {
+    color: #085025;
+  }
+  
+  .Bach2{
+    color: #085025;
+  }
+  .link{
+    position: absolute;
+    top: 1237px;
+    left:400px;
+    
   }
 }
 

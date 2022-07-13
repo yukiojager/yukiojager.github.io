@@ -1,10 +1,30 @@
 import { useState, useEffect } from "react";
 import Project from "./components/Project";
+import {useRef} from 'react';
 import Media from "react-media";
 import { useInView } from "react-intersection-observer";
 import Sticky from "./components/Stickydiv";
 
 const App = () => {
+  const projectref = useRef(null);
+  const journeyref = useRef(null);
+
+
+
+  const [journey, setJourney] = useState(false)
+  const [projectTime, setProject] = useState(true)
+
+  const switchJourney = () => {
+    journeyref.current?.scrollIntoView({behavior: 'smooth'});
+    console.log("prrr")
+  }
+
+  const switchProject = () => {
+    projectref.current?.scrollIntoView({behavior: 'smooth'});
+    console.log("prrr")
+  }
+
+
   const projects = [
     {
       link: "https://phonebookinator.herokuapp.com/",
@@ -53,17 +73,17 @@ const App = () => {
             {(queries1) => {
               return queries1 ? (
                 <div className="section-buttons">
-                  <button className="button">
+                  <button className="button" onClick={switchProject}>
                     PROJECTS
                     <div className="button__horizontal"></div>
                     <div className="button__vertical"></div>
                   </button>
-                  <button className="button">
+                  {/* <button className="button">
                     ARTICLES
                     <div className="button__horizontal"></div>
                     <div className="button__vertical"></div>
-                  </button>
-                  <button className="button">
+                  </button> */}
+                  <button className="button" onClick={switchJourney}>
                     JOURNEY
                     <div className="button__horizontal"></div>
                     <div className="button__vertical"></div>
@@ -178,7 +198,7 @@ const App = () => {
         {(queries) => {
           return queries ? (
             <div className="right-side">
-              <div className="projects-div">
+              <div ref={projectref} className="projects-div">
                 {projects.map((project) => (
                   <Project
                     link={project.link}
@@ -187,6 +207,18 @@ const App = () => {
                     description={project.description}
                   />
                 ))}
+                <div ref={journeyref} className="thewholetext">
+                    <p className="paragraph">
+<span className="the">Some</span> of my earliest memories are associated with playing on computers and my first forays into forums through content creation. The passion for programming and the possibility of  <span className="Bach2">creating</span> have always been a big part of me.</p>
+
+<p className="paragraph2">My skills and abilities have brought me through a variety of fields, including <span className="Bach2">art</span>,  <span className="Bach2">music</span>, and  <span className="Bach2">mathematics</span>, all of which I now understand can be used to serve, beautify, and simplify people's lives through software and web development.</p>
+
+<div className="link"></div>
+<div className="pcontainer">
+<p className="paragraph3">My youth allows me a new and fresh look at the industry’s latest demands and problems. I am <span className="Bach">rigorous</span> in my training; <span className="Bach">industrious</span>, <span className="Bach">reflective</span>, and <span className="Bach">endlessly self-correcting.</span> I see myself, along with so many others, as contributing to the never-ending work of guiding our world to a brighter future through technology.
+</p>
+</div>
+</div>
               </div>
             </div>
           ) : (
